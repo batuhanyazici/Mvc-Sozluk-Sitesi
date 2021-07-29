@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3  bg-gradient-purple">
+            <h4>Toplam Kayıt</h4>
+            @ViewBag.value
+        </div>
+        <div class="col-md-2 bg-cyan">
+            <h4>Yazlım Kategorisindeki Başlıklar</h4>
+            @ViewBag.Heading
+        </div>
+        <div class="col-md-2 bg-blue">
+            <h4>İsminde A geçen Yazar Sayısı</h4>
+            @ViewBag.Writers
+        </div>
+        <div class="col-md-2 bg-danger">
+            <h4>En Fazla Başlığa Sahip Kategori</h4>
+            @ViewBag.MaxCategory
+        </div>
+        <div class="col-md-3 bg-yellow">
+            <h4>Durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark</h4>
+            @ViewBag.Status
+        </div>
+    </div>
+</div>
+

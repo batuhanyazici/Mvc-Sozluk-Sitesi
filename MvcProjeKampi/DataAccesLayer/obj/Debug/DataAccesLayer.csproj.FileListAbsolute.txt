@@ -1,0 +1,17 @@
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\DataAccesLayer.dll.config
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\DataAccesLayer.dll
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\DataAccesLayer.pdb
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityFramework.dll
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityLayer.dll
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityFramework.xml
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.CopyComplete
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.dll
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.pdb
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig1.resources
+C:\Users\Batuhan\source\repos\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.GenerateResource.cache
