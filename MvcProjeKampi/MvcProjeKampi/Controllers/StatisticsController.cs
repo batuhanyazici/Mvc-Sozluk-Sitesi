@@ -34,9 +34,6 @@ namespace MvcProjeKampi.Controllers
             ViewBag.Status = (TrueResults - FalseResults);
 
 
-
-
-
             return View();
         }
 
