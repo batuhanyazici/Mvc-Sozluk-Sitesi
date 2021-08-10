@@ -27,6 +27,11 @@ namespace BusinessLayer.Concrete
             return _writerdal.List();
         }
 
+        public Writer GetWriter(string username, string password)
+        {
+            return _writerdal.Get(x => x.WriterMail == username && x.WriterPassword == password);
+        }
+
         public void WriterAdd(Writer writer)
         {
             _writerdal.Insert(writer);

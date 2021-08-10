@@ -51,3 +51,6 @@ C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\o
 C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.talentskill_add.resources
 C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.talent_Text_length.resources
 C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.talent_Text_length1.resources
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.writer_pass_add.resources
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.admin_role.resources
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.admin_Status.resources

@@ -1,0 +1,52 @@
+﻿@using EntityLayer.Concrete
+@model List<Admin>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{ string status = "";}
+@{ string statusButton = "";}
+@{ string stat = "";}
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Kullanıcı Mail</th>
+        <th>Yetki</th>
+        <th>Status</th>
+        <th>Pasif Yap</th>
+        <th>Yetkisini Değiştir</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (item.AdminStatus == true)
+        {
+            status = "Pasif Yap";
+            stat = "Aktif";
+        }
+        if (item.AdminStatus == false)
+        {
+            status = "Aktif Yap";
+            stat = "Pasif";
+        }
+        if (item.AdminStatus == true)
+        {
+            statusButton = "btn btn-danger";
+        }
+        if (item.AdminStatus == false)
+        {
+            statusButton = "btn btn-success";
+        }
+        <tr>
+            <th>@item.AdminID</th>
+            <td>@item.AdminUserName</td>
+            <td>@item.AdminUserRole</td>
+            <td>@stat</td>
+            <td><a href="/Authorization/ActiveOrPassive/@item.AdminID" class="@statusButton">@status</a></td>
+            <td><a href="/Authorization/EditAdmin/@item.AdminID" class="btn btn-warning">Yetkisini Değiştir</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Authorization/AddAdmin" id="btn" class="btn btn-info">Yeni Admin</a>

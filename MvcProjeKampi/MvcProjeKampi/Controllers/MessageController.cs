@@ -17,14 +17,14 @@ namespace MvcProjeKampi.Controllers
         MessageValidator messagevalidator = new MessageValidator();
         MessageManager mm = new MessageManager(new EfMessageDal());
         [Authorize]
-        public ActionResult Inbox()
+        public ActionResult Inbox(string p)
         {
-            var messagelist = mm.GetListInbox();
+            var messagelist = mm.GetListInbox(p);
             return View(messagelist);
         }
-        public ActionResult Sendbox()
+        public ActionResult Sendbox(string p)
         {
-            var messagelist = mm.GetListSendbox();
+            var messagelist = mm.GetListSendbox(p);
             return View(messagelist);
         }
         public ActionResult GetInBoxMessageDetails(int id)
@@ -61,9 +61,9 @@ namespace MvcProjeKampi.Controllers
             }
             return View();
         }
-        public ActionResult Draft()
+        public ActionResult Draft(string p)
         {
-            var messagelist = mm.GetListSendbox();
+            var messagelist = mm.GetListSendbox( p);
             var draftList = messagelist.FindAll(x=>x.isDraft==true);
             return View(draftList);
         }
@@ -77,15 +77,21 @@ namespace MvcProjeKampi.Controllers
             mm.MessageUpdate(result);
             return RedirectToAction("ReadMessage");
         }
-        public ActionResult ReadMessage()
+        public ActionResult ReadMessage(string p)
         {
-            var readMessage = mm.GetList().Where(x => x.IsRead == true).ToList();
+            var readMessage = mm.GetList(p).Where(x => x.IsRead == true).ToList();
             return View(readMessage);
         }
-        public ActionResult UnReadMessage()
+        public ActionResult UnReadMessage(string p)
         {
-            var unReadMessage = mm.GetListUnRead();
+            var unReadMessage = mm.GetListUnRead(p);
             return View(unReadMessage);
+        }
+        public ActionResult Search(string p)
+        {
+            string d = (string)Session["WriterMail"];
+            var values = mm.GetSearch(p,d);
+            return View(values);
         }
     }
 }

@@ -158,6 +158,18 @@
     <Compile Include="Migrations\202108031418178_talent_Text_length1.designer.cs">
       <DependentUpon>202108031418178_talent_Text_length1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108051439303_writer_pass_add.cs" />
+    <Compile Include="Migrations\202108051439303_writer_pass_add.designer.cs">
+      <DependentUpon>202108051439303_writer_pass_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108101059328_admin_role.cs" />
+    <Compile Include="Migrations\202108101059328_admin_role.designer.cs">
+      <DependentUpon>202108101059328_admin_role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108101128281_admin_Status.cs" />
+    <Compile Include="Migrations\202108101128281_admin_Status.designer.cs">
+      <DependentUpon>202108101128281_admin_Status.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -231,6 +243,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108031418178_talent_Text_length1.resx">
       <DependentUpon>202108031418178_talent_Text_length1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108051439303_writer_pass_add.resx">
+      <DependentUpon>202108051439303_writer_pass_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108101059328_admin_role.resx">
+      <DependentUpon>202108101059328_admin_role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108101128281_admin_Status.resx">
+      <DependentUpon>202108101128281_admin_Status.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

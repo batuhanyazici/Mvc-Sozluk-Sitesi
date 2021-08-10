@@ -6,6 +6,7 @@ using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
@@ -14,7 +15,7 @@ namespace MvcProjeKampi.Controllers
     public class AdminCategoryController : Controller
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
-        [Authorize (Roles="B")]
+        //[Authorize (Roles="B")]
         public ActionResult Index()
         {
             var categorycvalues = cm.GetList();
@@ -34,6 +35,7 @@ namespace MvcProjeKampi.Controllers
             if (results.IsValid)
             {
                 cm.CategoryAdd(p);
+                Thread.Sleep(1500);
                 return RedirectToAction("Index");
             }
             else

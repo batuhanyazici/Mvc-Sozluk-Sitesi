@@ -23,24 +23,34 @@ namespace BusinessLayer.Concrete
             return _messageDal.Get(x => x.MessageID == id);
         }
 
-        public List<Message> GetList()
+        public List<Message> GetList(string p)
         {
-            return _messageDal.List(x => x.ReceiverMail == "Admin@gmail.com").Where(x => x.IsRead == true).ToList();
+            return _messageDal.List(x => x.ReceiverMail == p).Where(x => x.IsRead == true).ToList();
         }
 
-        public List<Message> GetListInbox()
+        public List<Message> GetListInbox(string p)
         {
-            return _messageDal.List(x => x.ReceiverMail == "Admin@gmail.com");
+            return _messageDal.List(x => x.ReceiverMail == p);
         }
 
-        public List<Message> GetListSendbox()
+        public List<Message> GetListSendbox(string p)
         {
-            return _messageDal.List(x => x.SenderMail == "Admin@gmail.com");
+            return _messageDal.List(x => x.SenderMail == p);
         }
 
-        public List<Message> GetListUnRead()
+        public List<Message> GetListUnRead(string p)
         {
-            return _messageDal.List(x => x.ReceiverMail == "Admin@gmail.com").Where(x => x.IsRead == false).ToList();
+            return _messageDal.List(x => x.ReceiverMail == p).Where(x => x.IsRead == false).ToList();
+        }
+
+        public List<Message> GetSearch(string p,string d)
+        {
+            return _messageDal.List(x => x.MessageContent.Contains(p) && x.ReceiverMail==d);
+        }
+
+        public List<Message> ListAll()
+        {
+            return _messageDal.List();
         }
 
         public void MessageAdd(Message message)

@@ -1,0 +1,12 @@
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\Batuhan\Documents\GitHub\Mvc-Proje-Kampi\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb
